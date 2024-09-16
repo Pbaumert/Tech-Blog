@@ -1,0 +1,142 @@
+/* General styling for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbe3cd;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header and navigation styling */
+  header {
+    background-color: #352727;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #352727;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #b3b39d;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  /* Main section content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Card styles for each post */
+  .post-card {
+    background-color: #3d3d3d;
+    color: #dbe3cd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  
+  .post-card h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .post-card p {
+    color: #b3b39d;
+  }
+  
+  .post-card small {
+    color: #b3b39d;
+  }
+  
+  /* Form styling */
+  form {
+    background-color: #3d3d3d;
+    padding: 20px;
+    border-radius: 10px;
+    color: #dbe3cd;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  form input[type="submit"] {
+    background-color: #888;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #4d4d4d;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #888;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #4d4d4d;
+  }
+  
+  /* Dashboard and other areas */
+  .dashboard-header {
+    font-size: 2rem;
+    color: #352727;
+    text-align: center;
+  }
+  
+  .dashboard-post {
+    background-color: #565656;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    color: #dbe3cd;
+  }
+  
+  .dashboard-post:hover {
+    background-color: #404040;
+  }
+  
+  .dashboard-post h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .dashboard-post small {
+    color: #b3b39d;
+  }
+  
