@@ -6,7 +6,7 @@ const routes = require('./controllers');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 // Set up your sequelize connection (from config)
-const sequelize = require('./config/connection.js');
+const sequelize = require('./config/connection');
 
 // Import routes and helpers
 
