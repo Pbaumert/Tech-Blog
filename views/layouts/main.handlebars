@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-     <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    {{{body}}}
+    <nav>
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/logout">Logout</a>
+    </nav>
+
+    <div class="container">
+        <h1>The Tech Blog</h1>
+
+        {{#each posts}}
+        <div class="blog-post">
+            <h2>{{this.title}}</h2>
+            <p>{{this.content}}</p>
+            <small>Posted by {{this.username}} on {{this.date}}</small>
+        </div>
+        {{/each}}
+    </div>
+
+    <footer>
+        <p>&copy; 2024 The Tech Blog. All rights reserved.</p>
+    </footer>
 </body>
 </html>
